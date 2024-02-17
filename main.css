@@ -1,0 +1,40 @@
+:root{
+  --header:150px;
+}
+
+*{
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+}
+
+.header{
+  font-size: 1rem;
+  padding: 20px 0;
+  justify-content: center;
+}
+
+.header__h1{
+  display: flex;
+  justify-content: center;
+}
+
+.header__ul{
+  border: solid 1px;
+  top: 50%;
+  width: 80%;
+}
+
+.header__paragraph--black{
+  color: grey;
+}
+
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  height: calc(100vh)--header;
+}
